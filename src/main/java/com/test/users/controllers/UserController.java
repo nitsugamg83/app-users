@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import com.test.users.anotaciones.LogHttpResponse;
+import com.test.users.anotaciones.TimedExecution;
 import com.test.users.entities.User;
 import com.test.users.services.UserService;
 
@@ -38,6 +40,8 @@ public class UserController {
 	private UserService service;
 
 	@GetMapping
+	@LogHttpResponse("Registrando respuesta del método getUsers")
+	@TimedExecution("getUsers tiempo")
 	public ResponseEntity<Page<User>> getUsers(
 			@RequestParam(required = false, value = "page", defaultValue = "0") int page,
 			@RequestParam(required = false, value = "size", defaultValue = "1000") int size) {

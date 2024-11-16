@@ -1,0 +1,1038 @@
+2024-11-14 16:43:13 INFO  com.test.users.UsersAppApplication - Starting UsersAppApplication using Java 21.0.3 on nitsuga with PID 59608 (C:\Users\nitsu\OneDrive\Documents\GitHub\users-app\target\classes started by nitsu in C:\Users\nitsu\OneDrive\Documents\GitHub\users-app)
+2024-11-14 16:43:13 INFO  com.test.users.UsersAppApplication - No active profile set, falling back to default profiles: default
+2024-11-14 16:43:13 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-14 16:43:13 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-14 16:43:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 16:43:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+2024-11-14 16:43:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-11-14 16:43:15 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-14 16:43:15 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-14 16:43:15 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-11-14 16:43:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-14 16:43:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2280 ms
+2024-11-14 16:43:16 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 16:43:16 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-11-14 16:43:16 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-14 16:43:16 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-11-14 16:43:17 INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.test.users.anotaciones.entity.LogEntry (class must be instantiated by Interceptor)
+2024-11-14 16:43:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-14 16:43:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 16:43:18 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 16:43:19 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoint(s) beneath base path '/actuator'
+2024-11-14 16:43:19 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-14 16:43:19 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-14 16:43:19 INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a021b3b6-aa43-4ea8-9b1d-7d2c10a4f404
+
+2024-11-14 16:43:19 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a325b1c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7902ee76, org.springframework.security.web.header.HeaderWriterFilter@4f814d6d, org.springframework.web.filter.CorsFilter@e3b2e9, org.springframework.security.web.csrf.CsrfFilter@70da44f1, org.springframework.security.web.authentication.logout.LogoutFilter@11600a37, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31987f85, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7b47c9a9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@b529d0f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6af7e56c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b0d018b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36e6a643, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e5bd58c, org.springframework.security.web.session.SessionManagementFilter@2298aaf5, org.springframework.security.web.access.ExceptionTranslationFilter@52fdb26b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@726ca91f]
+2024-11-14 16:43:19 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-14 16:43:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-14 16:43:19 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2024-11-14 16:43:19 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2024-11-14 16:43:19 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-11-14 16:43:19 INFO  com.test.users.UsersAppApplication - Started UsersAppApplication in 6.809 seconds (JVM running for 8.112)
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username erik.lemke password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username mark.rolfson password Vegeta role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username courtney.purdy password Supreme Kai role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username rebecca.heaney password Super Saiyan 3 Goku role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username diego.flatley password Captain Ginyu role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username jenniffer.zieme password Android 16 role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username bernie.schimmel password Android 20 role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username darcey.huels password Supreme Kai role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username desmond.towne password Caulifla role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username randa.ernser password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username dreama.schroeder password Android 20 role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username deadra.flatley password Nail role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username winford.feest password Android 18 role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username verla.schaefer password Krillin role USER
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username heath.padberg password Cell role ADMIN
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username hulda.daugherty password Android 19 role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username aurora.block password Puar role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username charlie.reynolds password Vegeta role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username columbus.schneider password Launch role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username arlen.howell password Elder Kai role SUPPORT
+2024-11-14 16:43:20 INFO  com.test.users.UsersAppApplication - USer created username jacques.purdy password Majin Buu role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username gloria.skiles password Caulifla role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username teodoro.shanahan password King Cold role USER
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username ronald.abshire password Super Saiyan Goku role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username marilou.boyer password Kid Trunks role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username trey.jacobi password Bra role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username shanae.bradtke password King Kai role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username marg.fahey password Krillin role USER
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username jenette.damore password Shenlong role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username stephen.huel password Beerus role USER
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username dewey.mitchell password Demon King Piccolo role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username shaun.turner password Super Saiyan 3 Goku role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username jacquelyn.marquardt password Vegeta role USER
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username glenna.swaniawski password Goten role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username landon.corwin password Oolong role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username colin.kulas password Puar role USER
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username reuben.renner password Cooler role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username mahalia.daugherty password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username era.jacobi password Kami role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username clemmie.rowe password Captain Ginyu role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username calvin.nitzsche password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username shayne.dubuque password King Cold role SUPPORT
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username federico.herzog password Majin Buu role ADMIN
+2024-11-14 16:43:21 INFO  com.test.users.UsersAppApplication - USer created username willis.medhurst password Goten role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username ulysses.bashirian password Gohan role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username emery.lindgren password Beerus role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username grazyna.swift password Garlic Jr role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username mason.harvey password Bardock role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username lucienne.schultz password Launch role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username otis.mayer password Yajirobe role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username hubert.frami password Goku Black role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username daron.renner password Oolong role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username alec.vandervort password Super Saiyan Goku role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username leena.gaylord password Demon King Piccolo role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username rodney.armstrong password Guru role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username elbert.volkman password Cooler role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username amber.wintheiser password Android 17 role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username carey.nicolas password Majin Buu role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username luna.becker password Launch role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username orville.brown password Chi-Chi role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username margery.dubuque password Vegeta role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username carey.kassulke password Android 16 role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username ivory.kub password Shenlong role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username long.abernathy password Chi Shenlong role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username tamela.bins password Shenron role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username dovie.rice password Kami role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username daryl.frami password Mystic Gohan role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username aurelio.graham password Vegito role SUPPORT
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username roberto.lubowitz password Pan role USER
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username carmel.tillman password Baba role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username sparkle.murphy password Dende role ADMIN
+2024-11-14 16:43:22 INFO  com.test.users.UsersAppApplication - USer created username morgan.langosh password Pan role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username ming.marks password Android 16 role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username samuel.botsford password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username jonas.olson password Super Saiyan Trunks role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username blair.feeney password Super Saiyan 2 Gohan role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username ok.gleichner password Super Saiyan Goku role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username berneice.stanton password Mr. Satan role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username sherice.hane password Yajirobe role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username georgie.casper password Oolong role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username paz.kohler password Gohan role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username clarisa.jacobson password Vegeta role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username raymond.wolf password Uub role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username zada.bayer password Baby role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username cory.parisian password Whis role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username rhea.labadie password Bardock role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username melita.wisozk password Android 18 role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username aaron.greenholt password Yamcha role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username rogelio.damore password Bulma role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username shaquana.stoltenberg password Majin Buu role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username felicita.deckow password Gogeta role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username lawanna.goldner password Launch role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username milo.pfannerstill password Gogeta role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username ja.schneider password Su Shenlong role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username kiersten.spencer password Mystic Gohan role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username arlie.mcglynn password Baba role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username doreen.kertzmann password Super Saiyan 2 Goku role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username stefan.okeefe password Uh Shenlong role ADMIN
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username jody.kreiger password Yajirobe role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username angele.daniel password Super Saiyan Goten role SUPPORT
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username avelina.goyette password Raditz role USER
+2024-11-14 16:43:23 INFO  com.test.users.UsersAppApplication - USer created username tiera.conroy password Captain Ginyu role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username jolanda.cormier password Mystic Gohan role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username sheldon.sawayn password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username orval.beahan password Super Saiyan 2 Gohan role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username billy.mraz password Super Saiyan Vegeta role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username ester.collins password Gohan role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username stasia.boyer password Hit role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username terese.hartmann password Guru role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username saul.marvin password Baby role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username carter.hintz password Guru role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username chelsey.turner password Baba role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username johnny.streich password Super Saiyan 3 Goku role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username mitch.bayer password Super Saiyan Blue Goku role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username marhta.jast password Chaozu role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username kiley.moore password Android 18 role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username walter.runte password Broly role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username ivory.welch password Vegito role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username elfrieda.corwin password Yamcha role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username parthenia.okuneva password Chi Shenlong role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username ima.vandervort password Pan role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username holley.lang password Nappa role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username dori.reichert password Broly role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username lenita.jacobs password San Shenlong role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username ed.buckridge password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username roma.corwin password Oolong role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username hana.schimmel password Videl role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username cecelia.vandervort password Android 17 role SUPPORT
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username bao.funk password Android 18 role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username merrill.schneider password Demon King Piccolo role USER
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username moises.welch password Yamcha role ADMIN
+2024-11-14 16:43:24 INFO  com.test.users.UsersAppApplication - USer created username remedios.vonrueden password Super Saiyan Trunks role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username yadira.hane password San Shenlong role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username tabatha.ward password King Vegeta role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username jodi.rath password Android 18 role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username vicky.ondricka password Dende role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username katherina.ernser password Beerus role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username guadalupe.beatty password Android 17 role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username cecilia.cruickshank password Videl role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username waneta.breitenberg password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username ismael.brown password Chi-Chi role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username carol.bernier password Gogeta role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username gene.ledner password Goku role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username vincenzo.kihn password Mr. Popo role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username ginny.schiller password Pilaf role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username marti.ratke password Mr. Popo role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username deidra.gottlieb password Chi Shenlong role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username eddy.thiel password Super Saiyan Vegeta role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username gretchen.jakubowski password Oolong role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username ozella.powlowski password Zamasu role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username clyde.goyette password Garlic Jr role USER
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username rosenda.gottlieb password Cooler role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username lester.spinka password Piccolo role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username lynell.hickle password Super Saiyan Blue Vegeta role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username guillermo.raynor password Chi Shenlong role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username iris.osinski password Chi-Chi role SUPPORT
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username angelo.kozey password Yamcha role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username krysta.brown password Captain Ginyu role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username denis.hessel password Goku role ADMIN
+2024-11-14 16:43:25 INFO  com.test.users.UsersAppApplication - USer created username sherwood.dicki password Vegito role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username eric.kris password Grandpa Gohan role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username yuette.marvin password Champa role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username laurel.ortiz password Gogeta role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username elias.pfannerstill password Gogeta role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username neoma.koepp password Vados role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username lonnie.bergnaum password Super Saiyan Trunks role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username johnie.bruen password Android 16 role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username monroe.boyle password Broly role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username blair.treutel password Jaco role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username jammie.williamson password Pan role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username laquita.greenholt password Cooler role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username tomas.koepp password Li Shenlong role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username freeman.sporer password Future Trunks role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username jeanett.howe password Super Saiyan 2 Gohan role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username lizbeth.wolff password Majin Vegeta role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username florine.upton password Whis role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username gretta.gorczany password Uh Shenlong role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username derrick.walsh password Bulma role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username mayme.johns password Pilaf role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username kerry.langosh password Chi Shenlong role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username anisha.murazik password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username rolando.collins password Bra role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username raymond.rau password Bra role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username eddy.metz password King Vegeta role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username lazaro.schulist password Gogeta role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username morris.lang password Zarbon role SUPPORT
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username boyd.davis password Chi Shenlong role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username tory.ohara password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username jay.yost password Garlic Jr role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username jacklyn.lind password Vados role ADMIN
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username william.reichel password Freeza role USER
+2024-11-14 16:43:26 INFO  com.test.users.UsersAppApplication - USer created username lauryn.steuber password Super Saiyan 2 Goku role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username simone.schinner password Bulma role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username mariano.keebler password Chi-Chi role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username benjamin.macejkovic password Mystic Gohan role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username allen.lind password Goku role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username rodolfo.cormier password Zarbon role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username irma.mclaughlin password Yajirobe role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username irmgard.oberbrunner password King Vegeta role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username geraldo.tromp password Demon King Piccolo role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username jacquelyne.doyle password Bardock role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username nichole.mraz password Guru role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username dane.runolfsdottir password Bardock role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username antonette.thompson password Raditz role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username jarod.heidenreich password Captain Ginyu role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username keshia.hermann password Yamcha role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username karl.schuppe password Nail role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username trey.cruickshank password Android 19 role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username sarita.white password Goku Black role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username rosendo.yost password Super Saiyan Goten role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username jamal.mayert password Bra role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username alton.zulauf password Bardock role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username samantha.von password Cell role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username earnest.sipes password Nail role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username gia.herzog password Super Saiyan Goku role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username byron.sauer password Captain Ginyu role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username rubye.lesch password Supreme Kai role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username cecily.schaefer password Kami role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username vanita.hegmann password Nappa role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username eric.yundt password Bardock role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username voncile.emmerich password Super Saiyan 3 Goku role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username agustina.vonrueden password Super Saiyan Goten role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username renee.ortiz password Majin Vegeta role SUPPORT
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username marcell.collins password Demon King Piccolo role ADMIN
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username dino.lind password Uh Shenlong role USER
+2024-11-14 16:43:27 INFO  com.test.users.UsersAppApplication - USer created username reinaldo.ryan password Pan role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username lorenzo.kautzer password Gohan role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username marcellus.beahan password Dende role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username melany.daugherty password Tien role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username emilee.marks password Mr. Popo role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username chauncey.dare password Super Saiyan Goten role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username tyrell.gorczany password San Shenlong role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username lilia.oberbrunner password Android 16 role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username keenan.reilly password Bra role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username jude.blanda password Bardock role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username phuong.windler password Launch role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username dylan.harber password Grandpa Gohan role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username kerry.koepp password Android 18 role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username beth.ferry password Gohan role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username kaleigh.kihn password Vegeta role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username casie.zboncak password San Shenlong role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username marco.batz password Android 19 role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username mackenzie.koepp password Dende role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username dusty.durgan password San Shenlong role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username grover.boyle password Pan role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username lauren.mante password Puar role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username xiao.stamm password Super Saiyan Goten role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username meghan.aufderhar password Super Saiyan 3 Goku role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username louis.kessler password Yajirobe role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username tammi.gutmann password Baba role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username juan.weimann password Nail role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username taylor.gislason password King Vegeta role SUPPORT
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username zora.beer password Future Trunks role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username jackson.volkman password Oolong role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username audrea.quigley password Caulifla role USER
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username gordon.anderson password Dr. Gero role ADMIN
+2024-11-14 16:43:28 INFO  com.test.users.UsersAppApplication - USer created username asia.monahan password Champa role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username stuart.blanda password Super Saiyan 2 Gohan role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username shawnee.weissnat password Ryuu Shenlong role SUPPORT
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username christopher.legros password Android 17 role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username anisa.hammes password Cell role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username catrina.kutch password Super Saiyan 3 Goku role SUPPORT
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username sherman.schinner password Tien role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username genevie.will password Grandpa Gohan role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username randy.mayer password Bulma role SUPPORT
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username rosalind.kuhn password Super Saiyan Goten role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username spring.simonis password Piccolo role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username herminia.kub password Super Saiyan Goku role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username suzanne.fay password Li Shenlong role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username tommie.spencer password Krillin role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username gwyneth.stamm password Mr. Satan role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username santo.larson password Ryan Shenlong role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username felice.bailey password Captain Ginyu role SUPPORT
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username phil.rohan password Captain Ginyu role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username kera.schinner password Ryuu Shenlong role SUPPORT
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username claude.schneider password Gohan role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username jason.mohr password Super Saiyan Vegeta role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username eddy.grant password Android 16 role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username danial.boehm password Future Trunks role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username nina.blick password Kami role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username lowell.zieme password Oolong role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username emiko.schaefer password Elder Kai role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username elvis.larson password Super Saiyan Goku role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username hyo.okuneva password Super Saiyan Blue Goku role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username arden.ullrich password Baby role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username mohamed.veum password San Shenlong role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username jennell.schmitt password Vegito role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username les.buckridge password Shenron role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username carter.fay password San Shenlong role ADMIN
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username annabel.mayer password Captain Ginyu role USER
+2024-11-14 16:43:29 INFO  com.test.users.UsersAppApplication - USer created username sebastian.wintheiser password Elder Kai role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username derek.bogisich password Grandpa Gohan role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username hazel.dubuque password Piccolo role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username toney.davis password Vados role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username brigida.connelly password Krillin role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username alvaro.osinski password Super Saiyan 2 Gohan role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username eden.bailey password Future Trunks role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username brian.jast password Vegeta role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username mauricio.mosciski password Ryuu Shenlong role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username katharina.lang password Nappa role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username ira.hessel password Raditz role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username robt.carroll password Champa role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username jamison.douglas password Uub role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username antone.bins password Ryuu Shenlong role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username ronald.bergstrom password Bardock role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username gerardo.mccullough password Bra role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username cherryl.oconner password Videl role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username thomasena.hilll password Future Trunks role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username jarrett.halvorson password Shenron role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username leonel.kiehn password Goku role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username floretta.parker password Puar role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username nubia.williamson password Super Saiyan 2 Goku role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username willian.waelchi password Cooler role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username norberto.bergstrom password Uub role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username lonnie.fahey password Dende role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username myung.bailey password Bulma role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username krissy.koelpin password Bardock role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username gregory.blick password Captain Ginyu role USER
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username jarrod.koss password Goku Black role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username odell.schinner password San Shenlong role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username willa.upton password Guru role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username rebbecca.lockman password Bra role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username jess.deckow password Super Saiyan Trunks role SUPPORT
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username eddie.padberg password Android 17 role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username alan.stiedemann password Caulifla role ADMIN
+2024-11-14 16:43:30 INFO  com.test.users.UsersAppApplication - USer created username abdul.connelly password Yajirobe role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username morgan.mitchell password Chi-Chi role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username rick.rowe password Majin Vegeta role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username randall.glover password Mr. Satan role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username olivia.batz password Vegito role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username valentina.schaden password Nail role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username ike.kihn password Li Shenlong role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username jacquiline.grimes password Super Saiyan Gohan role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username michale.bradtke password Elder Kai role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username bea.shanahan password Elder Kai role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username linnie.morissette password Nail role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username dane.bruen password King Cold role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username selina.weimann password Android 19 role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username angela.johns password Android 17 role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username octavio.kemmer password Shenron role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username jamey.brown password Bardock role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username weldon.kuhlman password Super Saiyan Blue Vegeta role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username emmy.becker password Su Shenlong role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username don.smitham password Uh Shenlong role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username bernardo.weimann password Chi-Chi role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username ethel.pfeffer password King Cold role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username titus.abshire password Garlic Jr role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username jarrod.fahey password King Vegeta role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username kathie.armstrong password Super Saiyan Trunks role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username vernon.leffler password Goku Black role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username kit.sauer password Supreme Kai role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username brigette.hegmann password Super Saiyan Trunks role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username lesli.thompson password Dende role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username camelia.klocko password Li Shenlong role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username frances.hammes password San Shenlong role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username reba.kilback password Super Saiyan Goten role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username letisha.hamill password Piccolo role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username shelby.keebler password Kami role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username donny.greenfelder password Puar role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username blossom.johns password Shenlong role USER
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username dustin.ward password Grandpa Gohan role SUPPORT
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username carmine.becker password Piccolo role ADMIN
+2024-11-14 16:43:31 INFO  com.test.users.UsersAppApplication - USer created username anastasia.simonis password Android 18 role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username wilburn.blanda password Kid Trunks role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username marylouise.douglas password Elder Kai role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username gilberto.labadie password Kid Trunks role USER
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username yulanda.heaney password King Cold role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username alec.lesch password Raditz role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username lynwood.wisozk password Captain Ginyu role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username hollie.kemmer password Broly role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username trent.osinski password Champa role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username roscoe.little password Zamasu role USER
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username paul.kshlerin password Raditz role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username man.hickle password Android 18 role USER
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username jimmie.walker password Dende role USER
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username jamika.brown password Broly role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username richelle.swaniawski password Super Saiyan Vegeta role USER
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username dalton.crist password Krillin role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username christiana.flatley password Future Trunks role USER
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username tad.romaguera password Puar role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username loyd.sauer password Chi Shenlong role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username santo.stroman password Zamasu role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username calvin.borer password Mr. Satan role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username valentine.roberts password Super Saiyan Goten role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username suzi.oconnell password Android 20 role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username aleen.boehm password Android 17 role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username tamekia.vandervort password Goku Black role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username zelma.brown password Guru role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username mohamed.frami password Goku Black role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username francina.steuber password Gogeta role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username lanita.bartoletti password Zarbon role SUPPORT
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username luetta.renner password Demon King Piccolo role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username alvaro.bartoletti password Demon King Piccolo role ADMIN
+2024-11-14 16:43:32 INFO  com.test.users.UsersAppApplication - USer created username lou.walker password Champa role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username clement.lind password Dende role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username jennell.welch password Broly role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username joyce.morar password Chi-Chi role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username coleen.lang password San Shenlong role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username jammie.hahn password Uh Shenlong role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username pandora.toy password Majin Vegeta role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username doug.howell password Hit role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username robert.auer password Super Saiyan 2 Goku role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username sammie.lindgren password Guru role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username billy.mraz password San Shenlong role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username bernie.reichert password Dende role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username andrew.bruen password Caulifla role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username leonardo.koepp password Launch role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username armand.denesik password Beerus role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username kemberly.windler password Mr. Popo role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username pamella.jaskolski password Yajirobe role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username edythe.windler password Super Saiyan Blue Goku role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username elwood.olson password Caulifla role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username tressie.bode password Launch role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username bari.larson password Pan role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username terry.reichel password Android 18 role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username ola.tillman password Chaozu role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username dian.crona password Android 20 role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username bruce.labadie password Majin Buu role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username genesis.bayer password Oolong role USER
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username hilaria.mante password Super Saiyan 2 Gohan role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username oswaldo.miller password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username farrah.johnston password Kid Trunks role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username florentino.turner password Bra role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username chantell.daugherty password Mystic Gohan role ADMIN
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username lynwood.schamberger password Cooler role SUPPORT
+2024-11-14 16:43:33 INFO  com.test.users.UsersAppApplication - USer created username edwardo.thompson password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username erna.gibson password Tien role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username louie.howell password King Vegeta role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username linda.hoeger password Piccolo role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username galen.damore password Super Saiyan Gohan role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username harley.beier password Super Saiyan 2 Gohan role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username ben.batz password Su Shenlong role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username rico.bogisich password Launch role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username odis.goodwin password Baby role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username keri.hilpert password Super Saiyan 2 Vegeta role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username iraida.keeling password Guru role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username freddie.thiel password Yajirobe role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username gilberto.johnson password Puar role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username etha.mayert password Dende role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username darrel.fadel password Vados role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username broderick.sipes password Uub role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username dreama.zulauf password Raditz role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username marcy.moen password Guru role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username lucien.hegmann password Caulifla role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username denver.collier password Ryuu Shenlong role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username harrison.kris password King Kai role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username desmond.schmidt password Bardock role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username sharan.dickinson password Android 16 role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username cletus.sporer password Android 16 role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username jerry.hoppe password Baby role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username tomiko.feeney password Vados role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username steven.hilll password Chi-Chi role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username gina.frami password Jaco role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username sheldon.green password Mystic Gohan role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username robt.carter password King Vegeta role USER
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username cora.osinski password Nail role ADMIN
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username colby.hessel password Freeza role SUPPORT
+2024-11-14 16:43:34 INFO  com.test.users.UsersAppApplication - USer created username earlean.weber password Li Shenlong role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username levi.beahan password Kami role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username katia.ryan password Kid Trunks role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username edwin.padberg password Chaozu role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username aurea.zemlak password Uh Shenlong role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username leroy.king password Hit role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username modesta.wolf password Ryan Shenlong role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username ai.goodwin password Demon King Piccolo role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username genevieve.witting password Uh Shenlong role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username londa.considine password Puar role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username warner.windler password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username elmo.okon password Super Saiyan Blue Goku role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username dannie.turner password Nappa role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username johnnie.upton password Super Saiyan 2 Vegeta role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username ferne.schuppe password Demon King Piccolo role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username simon.beer password Goten role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username lashawn.oconnell password Yamcha role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username minh.lindgren password Android 18 role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username laverne.morar password Tien role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username russell.franecki password Bra role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username freeman.spencer password Majin Vegeta role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username aleshia.raynor password Goku Black role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username cordell.stroman password King Cold role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username zola.terry password Gogeta role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username jonah.lesch password Yajirobe role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username taylor.langworth password Broly role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username masako.windler password Li Shenlong role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username jennell.kilback password Caulifla role SUPPORT
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username denis.witting password Uh Shenlong role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username jill.wyman password Baby role ADMIN
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username brock.fadel password Yajirobe role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username michele.muller password Pilaf role USER
+2024-11-14 16:43:35 INFO  com.test.users.UsersAppApplication - USer created username beverley.konopelski password Mr. Popo role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username ernie.schimmel password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username kenneth.schowalter password San Shenlong role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username dorethea.wuckert password Chi-Chi role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username ines.bernhard password Gohan role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username erlinda.bergstrom password Krillin role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username amado.jacobi password Jaco role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username garfield.erdman password Chi-Chi role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username chance.krajcik password Mr. Satan role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username olen.becker password Freeza role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username oma.mills password Champa role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username kyra.dare password Mr. Satan role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username tamar.blick password Baba role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username joan.schaefer password Cooler role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username eduardo.crona password Pan role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username arielle.price password Gohan role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username dorine.bosco password Raditz role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username logan.oconnell password Cooler role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username sol.raynor password Baby role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username kanesha.sanford password Hit role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username truman.gerlach password Android 19 role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username ramiro.douglas password Shenron role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username nathaniel.moen password Baba role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username robbie.lakin password Vegito role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username curtis.treutel password Super Saiyan Vegeta role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username chas.carroll password Super Saiyan Blue Goku role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username bibi.halvorson password Gohan role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username valerie.effertz password Freeza role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username doyle.schulist password Android 18 role SUPPORT
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username alonzo.farrell password Pan role ADMIN
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username stefan.collier password Super Saiyan Trunks role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username augustus.mante password Hit role USER
+2024-11-14 16:43:36 INFO  com.test.users.UsersAppApplication - USer created username tracie.corkery password Dende role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username carline.nienow password Captain Ginyu role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username lana.nicolas password King Kai role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username genie.labadie password Gohan role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username rogelio.barton password Chi-Chi role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username billy.bahringer password Guru role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username kasandra.labadie password Android 18 role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username rory.ratke password Chi-Chi role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username delora.terry password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username pearl.nienow password Gohan role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username theodore.fay password Mystic Gohan role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username irwin.hills password Guru role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username loyd.lind password Gohan role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username flor.mcclure password Super Saiyan Blue Vegeta role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username tawny.glover password Uh Shenlong role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username ossie.fisher password Super Saiyan 2 Vegeta role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username javier.runte password Super Saiyan Blue Goku role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username jaime.bahringer password Oolong role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username etha.reilly password Ryan Shenlong role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username malcolm.quitzon password Pan role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username suzette.ruecker password Caulifla role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username allyn.wisoky password Chi Shenlong role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username justin.spinka password Oolong role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username fletcher.bergstrom password Android 16 role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username floyd.wisozk password Super Saiyan 3 Goku role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username melita.greenholt password Captain Ginyu role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username sandy.gibson password Raditz role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username alphonso.schulist password Goten role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username bernardina.sawayn password Ryan Shenlong role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username kathi.oberbrunner password Chi-Chi role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username dortha.hegmann password Goku Black role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username carrol.haag password Garlic Jr role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username homer.abernathy password Su Shenlong role SUPPORT
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username ileana.ledner password Bulma role USER
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username winston.toy password King Cold role ADMIN
+2024-11-14 16:43:37 INFO  com.test.users.UsersAppApplication - USer created username walker.batz password Guru role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username evie.wolf password Ryan Shenlong role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username amiee.casper password Krillin role ADMIN
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username dahlia.mertz password Super Saiyan Trunks role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username clayton.goldner password Captain Ginyu role ADMIN
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username antwan.treutel password Mr. Satan role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username kareen.mraz password Android 18 role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username maurice.okeefe password Freeza role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username harry.lynch password Goku Black role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username teddy.dach password Vegeta role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username raymundo.abbott password Vados role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username patience.dickinson password Chi-Chi role ADMIN
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username lanny.gutkowski password Chi-Chi role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username awilda.yundt password Super Saiyan Goten role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username del.parisian password Dende role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username eusebio.strosin password Mr. Popo role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username malcolm.morar password Majin Buu role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username stephania.von password Android 20 role ADMIN
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username iraida.crooks password Puar role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username candance.frami password Puar role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username mary.price password Demon King Piccolo role ADMIN
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username shon.botsford password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username denny.king password Raditz role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username norene.padberg password Baba role ADMIN
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username antony.okuneva password Elder Kai role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username lauralee.boyer password Super Saiyan Trunks role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username katelyn.zemlak password Krillin role SUPPORT
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username louis.walker password Goku role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username dustin.grady password Yajirobe role USER
+2024-11-14 16:43:38 INFO  com.test.users.UsersAppApplication - USer created username daryl.runolfsdottir password Puar role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username gail.schneider password Majin Vegeta role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username myong.kihn password Vegito role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username irina.wisozk password Super Saiyan 2 Gohan role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username frederick.herzog password Zarbon role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username antonia.jerde password Shenron role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username bryant.thiel password Super Saiyan Vegeta role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username bradford.hayes password Chaozu role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username apolonia.ebert password Chaozu role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username antone.beahan password Mr. Popo role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username laveta.krajcik password Whis role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username marry.wolf password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username berneice.kutch password Li Shenlong role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username iluminada.larson password Super Saiyan Vegeta role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username rudolph.bogisich password Launch role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username asley.kozey password Bardock role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username luz.cummerata password Bra role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username eura.howe password Mr. Popo role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username whitley.daugherty password Super Saiyan 2 Gohan role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username jacquelin.stamm password Cooler role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username jason.dickens password Su Shenlong role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username son.dubuque password Android 18 role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username angelo.rogahn password Bardock role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username hazel.bartoletti password Majin Vegeta role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username marisha.skiles password Vados role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username walter.bradtke password Bra role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username lory.corwin password Vegito role USER
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username dominique.wintheiser password Guru role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username alfonso.cole password Jaco role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username suzan.waters password Uub role SUPPORT
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username niesha.carter password Dr. Gero role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username aurelio.brekke password Super Saiyan Trunks role ADMIN
+2024-11-14 16:43:39 INFO  com.test.users.UsersAppApplication - USer created username ivelisse.herzog password Dende role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username maria.hackett password Dende role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username guillermo.hirthe password Caulifla role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username winford.krajcik password King Cold role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username malia.langosh password Tien role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username fermin.daniel password Captain Ginyu role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username kent.bode password Uh Shenlong role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username riley.hirthe password Videl role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username minda.windler password Uh Shenlong role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username ester.cartwright password Super Saiyan Goten role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username torrie.murazik password Uub role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username garret.stamm password Vegeta role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username terrilyn.dare password Uub role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username alejandro.schimmel password Li Shenlong role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username lisabeth.schaden password Android 19 role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username nicholas.langosh password Super Saiyan 2 Vegeta role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username xavier.kessler password Super Saiyan 3 Goku role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username grace.wyman password Shenlong role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username drema.howe password Grandpa Gohan role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username ron.torp password Chi-Chi role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username russ.rolfson password Goku role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username adrian.schneider password King Vegeta role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username angelina.ward password Kami role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username elwood.hermiston password Goku role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username lucile.torp password Bra role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username marinda.emard password Elder Kai role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username lee.kunze password Oolong role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username gordon.schowalter password Future Trunks role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username trista.schinner password Cooler role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username johnetta.hintz password Vados role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username sterling.medhurst password Caulifla role SUPPORT
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username liz.senger password Mr. Popo role ADMIN
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username dannielle.shields password Super Saiyan Vegeta role USER
+2024-11-14 16:43:40 INFO  com.test.users.UsersAppApplication - USer created username kayleigh.wolff password Whis role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username yadira.grady password Shenlong role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username irvin.kuhic password Hit role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username tashia.pagac password Launch role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username winston.hartmann password Guru role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username julianna.schulist password Supreme Kai role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username raymon.dare password Li Shenlong role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username kyung.brakus password Vados role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username daniele.jacobs password Chi Shenlong role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username weston.hills password Dr. Gero role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username millard.hyatt password Mr. Satan role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username mariano.heaney password Garlic Jr role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username keren.schaden password Yajirobe role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username lesley.willms password King Cold role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username julio.hickle password Ryuu Shenlong role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username socorro.bahringer password Beerus role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username simone.cummings password Whis role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username shanice.reilly password Goten role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username tu.windler password Vados role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username verlene.sanford password Super Saiyan Trunks role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username blake.bailey password Bulma role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username zachariah.beahan password Goku role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username donna.steuber password Vados role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username jarrett.kihn password Gogeta role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username hiram.gottlieb password Yajirobe role SUPPORT
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username rudolph.tillman password Pilaf role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username julius.baumbach password Vados role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username nella.abernathy password Launch role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username hobert.feil password Hit role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username sammie.koss password Bra role USER
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username margene.barton password Baba role ADMIN
+2024-11-14 16:43:41 INFO  com.test.users.UsersAppApplication - USer created username tyrone.schuster password Super Saiyan Blue Vegeta role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username gudrun.emard password Gogeta role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username lamont.blanda password Beerus role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username emilio.connelly password Champa role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username robt.fritsch password King Cold role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username brandon.turner password Baba role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username lynell.waelchi password Bardock role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username elly.oberbrunner password Super Saiyan Gohan role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username ciara.balistreri password Ryan Shenlong role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username aurelia.white password Ryuu Shenlong role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username clement.armstrong password Baba role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username shauna.schumm password Baba role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username robena.schimmel password Vegito role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username idella.bednar password Goten role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username guy.hilpert password Cooler role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username deane.zulauf password Super Saiyan Vegeta role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username jed.gerhold password Vados role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username theodore.casper password Yamcha role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username jeane.carroll password Nappa role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username toya.reichert password Bra role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username ben.lowe password Dende role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username reginald.bernhard password Elder Kai role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username noe.grant password Android 17 role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username melania.kovacek password Super Saiyan Blue Goku role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username al.hoeger password Super Saiyan 2 Goku role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username ehtel.nicolas password Super Saiyan 2 Goku role ADMIN
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username rudolf.ferry password King Vegeta role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username vanessa.herzog password Super Saiyan 3 Goku role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username reginald.damore password Super Saiyan 3 Goku role USER
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username jamar.spinka password Android 20 role SUPPORT
+2024-11-14 16:43:42 INFO  com.test.users.UsersAppApplication - USer created username sidney.west password Freeza role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username lamont.bernhard password Videl role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username byron.lebsack password Mr. Popo role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username jae.lakin password Zarbon role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username tamatha.bailey password Majin Buu role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username christy.strosin password Champa role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username ryan.west password Goku role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username estell.wilkinson password Android 18 role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username corene.farrell password Champa role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username les.rolfson password Kid Trunks role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username van.oberbrunner password San Shenlong role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username lionel.ullrich password Freeza role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username shaina.strosin password Uub role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username orval.kohler password Su Shenlong role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username dayna.lowe password Super Saiyan Trunks role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username waylon.stokes password Oolong role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username son.raynor password Li Shenlong role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username aleta.stehr password Whis role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username edward.stokes password Su Shenlong role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username newton.mitchell password Beerus role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username wilfredo.borer password Kami role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username lucius.lindgren password Android 19 role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username olen.bernhard password Android 20 role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username gerardo.schimmel password Demon King Piccolo role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username carla.bayer password Chaozu role SUPPORT
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username fiona.runolfsdottir password Vegeta role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username addie.metz password Mystic Gohan role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username roderick.maggio password Beerus role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username dakota.klein password Guru role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username randy.mueller password Tien role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username reynaldo.prosacco password Hit role USER
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username sherell.dicki password Goten role ADMIN
+2024-11-14 16:43:43 INFO  com.test.users.UsersAppApplication - USer created username bernardina.lesch password Baba role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username georgiana.schmeler password Freeza role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username stefania.lubowitz password Caulifla role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username alexis.nolan password Pilaf role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username angel.macejkovic password Zarbon role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username earlean.mclaughlin password Freeza role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username gwyn.mohr password Super Saiyan 2 Vegeta role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username daphne.bechtelar password Ryan Shenlong role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username dusty.durgan password Caulifla role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username glenna.johnston password Future Trunks role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username lelah.lynch password King Vegeta role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username reynaldo.runte password Dende role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username frederick.kirlin password Majin Vegeta role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username donnie.romaguera password Super Saiyan 3 Goku role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username ty.fritsch password San Shenlong role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username olen.herzog password Super Saiyan Gohan role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username lester.hoeger password Mr. Popo role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username evelyn.walker password Super Saiyan 2 Vegeta role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username aleen.nienow password Vegeta role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username barney.hudson password Bulma role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username malcom.kihn password Bra role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username marcelino.miller password Mr. Satan role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username vaughn.zieme password Dende role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username hertha.cronin password Super Saiyan 2 Vegeta role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username debby.mueller password Bra role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username kary.kohler password Launch role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username cindie.simonis password Jaco role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username michaela.mills password Dr. Gero role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username margaretta.mayer password Freeza role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username zina.smitham password Majin Buu role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username arla.heathcote password King Kai role ADMIN
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username deloras.lebsack password Broly role USER
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username hildegarde.lindgren password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:44 INFO  com.test.users.UsersAppApplication - USer created username zora.satterfield password Super Saiyan 2 Goku role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username yvone.dach password San Shenlong role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username lane.von password Grandpa Gohan role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username zulma.adams password Super Saiyan Trunks role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username courtney.walker password Bardock role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username emery.pagac password Bulma role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username hortencia.heller password Majin Vegeta role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username antionette.mitchell password Krillin role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username juliet.rice password Freeza role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username elbert.bahringer password Su Shenlong role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username melvin.dubuque password King Cold role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username bennett.fay password Dende role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username val.parker password Gogeta role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username liz.johnston password Chi-Chi role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username ollie.schowalter password Super Saiyan Goten role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username bernard.harvey password Bra role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username yukiko.ledner password Android 16 role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username clarence.keebler password Chi-Chi role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username buck.waters password Yamcha role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username boyce.macejkovic password Captain Ginyu role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username milan.padberg password Piccolo role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username karlene.pagac password Android 19 role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username esteban.hagenes password Shenron role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username gail.christiansen password Dr. Gero role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username glennis.harber password Shenlong role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username esteban.homenick password Guru role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username willis.nicolas password Uub role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username refugio.stehr password Vegito role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username dalene.mckenzie password Uh Shenlong role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username adelaide.schmitt password Mystic Gohan role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username mckinley.krajcik password Kid Trunks role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username brinda.buckridge password Majin Vegeta role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username nick.borer password King Vegeta role USER
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username claribel.schroeder password Garlic Jr role ADMIN
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username lai.runolfsdottir password Kami role SUPPORT
+2024-11-14 16:43:45 INFO  com.test.users.UsersAppApplication - USer created username florence.mccullough password Android 16 role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username stacy.white password Super Saiyan Goku role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username denis.gleichner password Supreme Kai role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username quincy.bradtke password King Cold role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username brice.effertz password Champa role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username nancee.mccullough password Captain Ginyu role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username genevie.jacobs password Gohan role ADMIN
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username zella.spencer password Baba role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username andreas.thompson password Nail role ADMIN
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username galen.bailey password Piccolo role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username abe.parker password Zamasu role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username kam.barrows password Super Saiyan Gohan role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username pedro.lemke password Launch role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username mario.hills password Super Saiyan Goten role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username janiece.durgan password Baba role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username marcus.gulgowski password Videl role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username jo.dickinson password Yajirobe role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username ricki.hamill password Garlic Jr role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username isaias.huel password Uh Shenlong role ADMIN
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username kim.okon password Supreme Kai role ADMIN
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username vicente.schmidt password Ryuu Shenlong role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username jayson.schumm password Kid Trunks role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username ava.fisher password Future Trunks role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username mickie.brakus password Mystic Gohan role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username andra.smitham password Super Saiyan 2 Vegeta role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username charlott.funk password Uub role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username bulah.johnson password Piccolo role SUPPORT
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username jeromy.batz password Cooler role USER
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username stevie.rodriguez password Super Saiyan Gohan role ADMIN
+2024-11-14 16:43:46 INFO  com.test.users.UsersAppApplication - USer created username damian.legros password Li Shenlong role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username assunta.wehner password Vegeta role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username maya.boyle password Shenlong role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username jared.hettinger password Super Saiyan Goku role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username isreal.johnson password Whis role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username daniel.kunze password Garlic Jr role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username arlean.hickle password Bulma role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username elvin.labadie password Krillin role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username ralph.stokes password Android 18 role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username ninfa.schultz password Super Saiyan 2 Vegeta role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username kimberly.mann password Chi Shenlong role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username leila.swift password Bulma role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username mirian.orn password King Cold role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username dong.dickens password Hit role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username roselle.lindgren password Bulma role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username james.walsh password Grandpa Gohan role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username azalee.kozey password Jaco role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username miriam.white password Android 17 role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username kyung.nienow password Super Saiyan Blue Vegeta role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username sung.lehner password Goku Black role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username kera.wilkinson password Zamasu role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username ileen.lehner password Cooler role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username cedrick.harvey password Kami role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username joann.legros password King Vegeta role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username jin.gleichner password Hit role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username erwin.waters password Super Saiyan Blue Goku role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username randal.abshire password Super Saiyan Gohan role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username williams.collins password Uub role SUPPORT
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username dudley.howell password Cell role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username scottie.harris password Bra role ADMIN
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username adelle.thiel password Nail role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username waylon.kub password Vados role USER
+2024-11-14 16:43:47 INFO  com.test.users.UsersAppApplication - USer created username arnulfo.dietrich password Pilaf role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username robin.cummings password Super Saiyan Trunks role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username rubye.howell password Garlic Jr role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username kimbra.jenkins password Raditz role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username pennie.quitzon password Zarbon role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username roy.swaniawski password Videl role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username mee.cormier password Ryuu Shenlong role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username pricilla.brekke password Uub role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username marcene.pagac password Vegito role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username eddy.durgan password Broly role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username eleanore.ruecker password Chi-Chi role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username emory.grady password Baby role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username tammi.schumm password Shenron role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username matha.rogahn password Dende role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username adrian.wilkinson password Garlic Jr role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username edison.jenkins password Goku Black role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username kareem.emmerich password Cooler role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username carolyn.johnston password Bardock role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username gerard.howell password Cooler role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username ginny.stamm password Hit role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username chance.toy password Ryan Shenlong role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username rupert.welch password Ryuu Shenlong role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username carmelo.raynor password Uh Shenlong role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username jacque.moore password Supreme Kai role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username ervin.kiehn password Broly role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username maxwell.bernier password Majin Buu role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username almeta.becker password Super Saiyan Blue Goku role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username major.roob password Dende role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username shon.hammes password Whis role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username eusebio.wuckert password Ryan Shenlong role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username lonna.orn password Jaco role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username willard.cartwright password Uub role SUPPORT
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username velma.runolfsson password Uh Shenlong role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username antwan.casper password Yajirobe role USER
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username branda.keeling password Chaozu role ADMIN
+2024-11-14 16:43:48 INFO  com.test.users.UsersAppApplication - USer created username columbus.schuppe password Android 20 role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username melynda.witting password Dr. Gero role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username hyman.mcclure password Videl role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username harold.keeling password Cell role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username ike.kulas password Shenron role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username yevette.mann password Whis role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username georgeann.gerlach password Mr. Satan role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username dominique.schoen password San Shenlong role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username cherie.huel password Super Saiyan Blue Goku role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username kendall.blanda password Champa role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username nan.raynor password Yamcha role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username dominque.casper password Mystic Gohan role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username genaro.roberts password Caulifla role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username cameron.christiansen password Ryuu Shenlong role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username devin.yundt password Baba role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username elden.heathcote password Krillin role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username damian.shanahan password Captain Ginyu role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username debi.mcdermott password Super Saiyan 2 Goku role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username margo.thiel password Super Saiyan Goku role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username carlton.roberts password Elder Kai role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username del.lubowitz password Bulma role USER
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username bart.nienow password Gohan role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username isiah.brakus password Nail role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username ariana.schultz password Nail role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username renato.mitchell password Android 17 role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username tony.emard password Tien role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username deangelo.towne password Chi-Chi role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username myong.schmeler password Guru role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username anneliese.macejkovic password Shenlong role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username charlene.weber password Yamcha role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username sheridan.stracke password Mystic Gohan role SUPPORT
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username nilda.brakus password Shenron role ADMIN
+2024-11-14 16:43:49 INFO  com.test.users.UsersAppApplication - USer created username delorse.dicki password Elder Kai role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username bambi.white password Nappa role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username darius.bartell password Dende role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username thu.volkman password Yamcha role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username franklyn.franecki password Vegeta role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username sammy.schmeler password Dende role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username ashley.haley password Bra role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username odis.jast password Freeza role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username herman.bernhard password Shenlong role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username mitchell.oberbrunner password Android 17 role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username luigi.harris password Broly role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username genie.bailey password Dende role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username jodie.bahringer password Goten role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username gerard.lebsack password Krillin role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username grant.heller password Vegito role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username evan.swaniawski password Shenlong role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username tamela.hayes password Super Saiyan Goku role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username ambrose.schamberger password Ryan Shenlong role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username zoe.klocko password Super Saiyan Blue Vegeta role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username min.kessler password Caulifla role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username harland.jaskolski password Super Saiyan Gohan role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username amado.streich password Gogeta role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username sammie.boyle password Super Saiyan Gohan role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username luigi.sawayn password Mr. Satan role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username stevie.jacobs password Vegito role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username pasquale.batz password San Shenlong role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username alex.crooks password Supreme Kai role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username claris.rowe password Launch role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username celesta.crooks password Launch role SUPPORT
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username valeri.lakin password Super Saiyan Goku role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username billi.gusikowski password Uh Shenlong role ADMIN
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username cecily.kohler password Gogeta role USER
+2024-11-14 16:43:50 INFO  com.test.users.UsersAppApplication - USer created username nathanial.kirlin password Dende role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username shawnee.hagenes password Supreme Kai role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username cruz.kreiger password Freeza role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username antonia.terry password Raditz role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username jasper.hartmann password Puar role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username dannie.schimmel password Videl role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username catheryn.zboncak password Super Saiyan Goku role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username cruz.hintz password Android 18 role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username shawanna.pacocha password Uub role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username harvey.ortiz password Uh Shenlong role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username suzie.brekke password Grandpa Gohan role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username marquitta.ernser password Nail role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username donna.mueller password Kami role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username janetta.mann password Yajirobe role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username mariano.hartmann password Puar role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username russell.padberg password Gohan role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username abram.white password Android 20 role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username titus.homenick password Pan role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username jefferey.mills password Vegito role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username violet.wehner password Vegito role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username nathaniel.fahey password Kid Trunks role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username kristofer.lebsack password Mr. Popo role SUPPORT
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username yaeko.hickle password Caulifla role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username dawne.bartell password Android 19 role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username quinn.bechtelar password Vegeta role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username louis.collins password Majin Buu role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username derrick.bosco password King Cold role ADMIN
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username anthony.gutkowski password Dende role USER
+2024-11-14 16:43:51 INFO  com.test.users.UsersAppApplication - USer created username kip.ward password Majin Buu role ADMIN
+2024-11-14 16:43:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 16:43:52 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-14 16:43:52 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-11-14 16:46:07 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'

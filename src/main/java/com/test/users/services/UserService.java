@@ -12,6 +12,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
+import com.test.users.anotaciones.LogContextInfo;
+import com.test.users.anotaciones.TimedExecution;
 import com.test.users.entities.User;
 import com.test.users.repositories.UserInRoleRepository;
 import com.test.users.repositories.UserRepository;
@@ -25,11 +27,13 @@ public class UserService {
 	private UserRepository userRepository;
 	@Autowired
 	private UserInRoleRepository userInRoleRepository;
-
+	
+	@LogContextInfo("llamando al metodo getUsers")
+	@TimedExecution("getUsers tardo")
 	public Page<User> getUsers(int page, int size) {
 		return userRepository.findAll(PageRequest.of(page, size));
 	}
-
+	
 	public Page<String> getUsernames(int page, int size) {
 		return userRepository.findUsernames(PageRequest.of(page, size));
 	}
@@ -41,6 +45,7 @@ public class UserService {
 	
 	@CacheEvict("users")
     @Transactional
+    
 	public void deleteUserByUsername(String username) {
 		
 		User user = getUserByUsername(username);
@@ -49,6 +54,7 @@ public class UserService {
 	}
 
 	@Cacheable("users")
+	@LogContextInfo("getUserByUsername")
 	public User getUserByUsername(String username) {
 		log.info("Getting user by username {}", username);
 		try {
